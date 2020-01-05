@@ -6,4 +6,5 @@ services:
     volumes:
       - $PWD:/tmp/working
     working_dir: /tmp/working
-    command: jupyter notebook --ip=0.0.0.0 --allow-root --no-browser
+    stdin_open: true
+    # command: jupyter notebook --ip=0.0.0.0 --allow-root --no-browser
