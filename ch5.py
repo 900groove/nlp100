@@ -3,3 +3,4 @@ class Morph:
         pass
 
     def parse(self, sentence):
+        pass
